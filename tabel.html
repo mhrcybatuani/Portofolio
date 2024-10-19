@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Tabel Data Mahasiswa</title>
+    <style>
+      /*Styling untuk tabel */
+      .container {
+        text-align: center; /* Center text inside container */
+        width: 100%; /* Full width */
+        max-width: 800px; /* Optional: set a max width for the container */
+      }
+
+      table {
+        margin-top: 100px; /* Adjust spacing as needed */
+        margin-bottom: 30px;
+        width: 100%; /* Full width of container */
+        border-collapse: collapse;
+        background-color: aliceblue;
+      }
+
+      th,
+      td {
+        border: 1px solid rgb(16, 16, 16);
+        padding: 8px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #284c31;
+        color: #e4c7c7;
+      }
+
+      .featured-text-info p {
+        color: rgb(27, 27, 24);
+      }
+
+      /* Styling untuk footer */
+      footer {
+        background-color: #284c31; /* Warna awal footer */
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        color: white; /* Ubah warna teks menjadi putih untuk kontras yang lebih baik */
+      }
+
+      .footer-menu {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-menu li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      .footer-menu a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .footer-menu a:hover {
+        text-decoration: underline;
+      }
+
+      .footer-social-icons {
+        margin: 10px 0;
+      }
+
+      .footer-social-icons .icon {
+        display: inline-block;
+        margin: 0 5px;
+      }
+
+      .bottom-footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Tutorial</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="index (1).html" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="tabel.html" class="nav-link">Cara Membuat Tabel</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="form.html" class="nav-link">Cara Membuat Form</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="tutorial.html" class="nav-link">Tutorial</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+      <h2>Data Mahasiswa</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>IPK Sem 1</th>
+            <th>IPK Sem 2</th>
+            <th>IPK Sem 3</th>
+            <th>IPK Sem 4</th>
+            <th>IPK Sem 5</th>
+            <th>IPK Sem 6</th>
+            <th>IPK Sem 7</th>
+            <th>IPK Sem 8</th>
+            <th>Jurusan</th>
+            <th>Fakultas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>221031142</td>
+            <td>Nike Pratiwi Pasaribu</td>
+            <td>3.5</td>
+            <td>3.6</td>
+            <td>3.7</td>
+            <td>3.8</td>
+            <td>3.9</td>
+            <td>4.0</td>
+            <td>3.9</td>
+            <td>3.8</td>
+            <td>Informatika Medis</td>
+            <td>Teknik</td>
+          </tr>
+          <tr>
+            <td>221031100</td>
+            <td>Resky Julianti</td>
+            <td>3.3</td>
+            <td>3.4</td>
+            <td>3.5</td>
+            <td>3.6</td>
+            <td>3.7</td>
+            <td>3.8</td>
+            <td>3.9</td>
+            <td>4.0</td>
+            <td>Sistem Informasi</td>
+            <td>Ekonomi dan Bisnis</td>
+          </tr>
+          <tr>
+            <td>221031134</td>
+            <td>Mercy S Batuani</td>
+            <td>2.9</td>
+            <td>3.0</td>
+            <td>3.1</td>
+            <td>3.2</td>
+            <td>3.3</td>
+            <td>3.4</td>
+            <td>3.5</td>
+            <td>3.6</td>
+            <td>Akuntansi</td>
+            <td>Ekonomi</td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td>221031145</td>
+            <td>Yeol Gevariel</td>
+            <td>2.9</td>
+            <td>4.0</td>
+            <td>3.1</td>
+            <td>3.6</td>
+            <td>4.0</td>
+            <td>3.4</td>
+            <td>2.5</td>
+            <td>3.9</td>
+            <td>Psikologi</td>
+            <td>Ilmu Sosial</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="featured-text-info">
+      <p>
+        Gambar tersebut menampilkan sebuah kode HTML yang digunakan untuk
+        membuat tabel data mahasiswa. Bagian kiri menunjukkan struktur file
+        proyek web, di mana kode HTML tersebut berada. Bagian kanan menampilkan
+        hasil dari kode tersebut saat dijalankan pada web browser, yaitu sebuah
+        tabel yang berisi data-data mahasiswa seperti nomor induk mahasiswa
+        (NIM), nama, nilai IPK setiap semester, jurusan, dan fakultas. Kode HTML
+        yang digunakan terdiri dari beberapa tag seperti table, tr, dan td yang
+        berfungsi untuk mendefinisikan struktur tabel, baris, dan kolom.
+      </p>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer id="footer">
+        <div class="top-footer">
+          <p>Mercy S Batuani</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-instagram"></i></div>
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><i class="uil uil-dribbble"></i></div>
+          <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none; color: white">Mercy aja</a> - All
+            rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      function changeFooterColor(event) {
+        const footer = document.getElementById("footer");
+        footer.style.backgroundColor = event.target.value; // Mengubah warna footer
+      }
+    </script>
+  </body>
+</html>
